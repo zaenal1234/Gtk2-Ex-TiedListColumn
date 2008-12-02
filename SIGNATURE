@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8624bcdae55baeef00cd11d5dfcfa60f68710a02 COPYING
+SHA1 7b6af1a5403dc849b8e7300ef0e8d645717e5dee Changes
+SHA1 9e4ea62ae9f22ce0d77877b7418df0566dfe8597 MANIFEST
+SHA1 1e48a2fc19907943c888cef4060584bf8a564a33 MANIFEST.SKIP
+SHA1 253b4e98e19fbbddb11be75e809490fdc9732d32 META.yml
+SHA1 1ecfb951072c554edeac05b1917008dc6ef01847 Makefile.PL
+SHA1 e9aea966d18fd6e38c75dd785d057c7cb9ea2899 debian/changelog
+SHA1 1b6453892473a467d07372d45eb05abc2031647a debian/compat
+SHA1 7b518163bb188252da215297902e6a73c7ba9625 debian/control
+SHA1 c506426b3fc603c1b5dc0cbc981f9b52c8f32272 debian/copyright
+SHA1 c247b07dc432a2a7bb52bf24132ecdfb560b6fe8 debian/rules
+SHA1 8a387b663e5eceb86624939e0990a77940efc43c debian/watch
+SHA1 1982c25bea1aaa16c521ff2da62234da9e56e775 lib/Gtk2/Ex/TiedListColumn.pm
+SHA1 cbf29ae192545b6d46e2dd902278d8aca6dbe7a6 t/TiedListColumn.t
+SHA1 a661a39e55a4127aecb1b97a631c4f01f7dce8c6 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iD8DBQFJNasRLFMCIV9q3ToRAhIHAJ9ccM9rl4Vdnziq4GSd6rAfncZfjACgk9pN
+700VkTxvj3SO9uyP/6K/UkI=
+=kVIj
+-----END PGP SIGNATURE-----

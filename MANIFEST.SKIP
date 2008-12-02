@@ -1,0 +1,15 @@
+^#
+~$
+^\.#
+\.old$
+\.bak$
+^Makefile$
+\.tar\.gz$
+^backup
+^misc
+^blib
+^pm_to_blib
+^Gtk2-Ex
+\.deb$
+dist-deb
+^maybe
